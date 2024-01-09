@@ -1,0 +1,155 @@
+/* src/app/signup/signup.component.css */
+
+.container {
+  display: flex;
+  padding: 0px 0.5px 0px 175px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 175px;
+  margin-top: 100px;
+  /* height: 500px; */
+}
+
+.image {
+  height: 10px; /* Set the height to 100% to fit the container */
+  width: 781.5px; /* Let the width adjust automatically based on the aspect ratio */
+  border-radius: 45px 0px 0px 45px; /* Ensure the image covers the entire container without stretching */
+}
+
+
+.label {
+  display: block;
+  color: #000;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+input {
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+  display: flex;
+  width: 404px;
+  height: 32px;
+  padding: 10px 0px 10px 10px;
+  align-items: flex-start;
+  border-radius: 10px;
+  border: 1px solid #D9D9D9;
+}
+
+.title {
+  color: #000;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: auto;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.button {
+  width: 404px;
+  height: 35.019px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 1px solid #3A5B22;
+  background: #3A5B22;
+  display: flex;
+  width: 404px;
+  height: 32px;
+  padding: 10px 0px 10px 10px;
+  gap: 10px;
+
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  justify-content: center;
+  align-items: center;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.checkbox input {
+  width: 9px;
+  height: 9.849px;
+  flex-shrink: 0;
+  border-radius: 2px;
+  border: 1px solid #000;  
+  margin-right: 8px;
+}
+
+.tnc {
+  width: 128px;
+  height: 15.321px;
+  flex-shrink: 0;
+  color: #000;
+  font-family: Poppins;
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+
+.divider {
+  text-align: center;
+  margin: 16px 0px;
+  font-weight: bold;
+  color: black; /* Adjust the color as needed */
+  width: 400px;
+  height: 2px;
+  background: #F5F5F5;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.google-button, .apple-button {
+  display: inline-flex;
+  padding: 4px 20px;
+  flex-direction: column;
+  /* align-items: flex-start; */
+  gap: 10px;
+  border-radius: 10px;
+  border: 1px solid var(--muted, #D9D9D9);
+}
+
+.button-group {
+  display: flex;
+  align-items: center;
+  gap: 64px;
+}
+
+.signin-link {
+  color: #000;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
+  margin-top: 20px;
+}
