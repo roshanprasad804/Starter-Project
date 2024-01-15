@@ -1,6 +1,6 @@
 body {
     display: inline-flex;
-    height: 1042px;
+    /* height: 1042px; */
     padding: 0px 0.5px 0px 175px;
     justify-content: flex-end;
     align-items: center;
