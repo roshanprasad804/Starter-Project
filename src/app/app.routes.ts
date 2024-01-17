@@ -4,5 +4,6 @@ import { LoginComponent } from './login/login.component';
 
 export const routes: Routes = [
     { path: '', component: SignupComponent },
+    { path: 'signup', component: SignupComponent },
     { path: 'login', component: LoginComponent },
 ];
